@@ -1,7 +1,124 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Template</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        .navbar a {
+            color: #ffffff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .header {
+            text-align: center;
+            padding: 100px 0;
+            background-color: #2a2a2a;
+        }
+        .header h1 {
+            font-size: 4em;
+            margin: 0;
+            color: #ffffff;
+        }
+        .header p {
+            color: #f8b24f;
+            font-size: 1.5em;
+            margin-top: 10px;
+        }
+        .about, .contact {
+            padding: 50px 0;
+        }
+        .about p, .contact p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin: 20px 0;
+        }
+        .about h2, .contact h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #f8b24f;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 50px;
+        }
+        .contact-info div {
+            width: 45%;
+        }
+        .contact-info h3 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        .contact-info p {
+            font-size: 1.2em;
+            color: #f8b24f;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <!-- Navbar -->
+        <nav class="navbar">
+            <div class="logo">
+                <h1 style="color: #f8b24f;">H.</h1>
+            </div>
+            <div class="menu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Works</a>
+                <a href="#">Journey</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Header -->
+        <header class="header">
+            <h1>Rosalina Williams</h1>
+            <p>Based in Netherland, I'm developer and graphic designer.</p>
+        </header>
+
+        <!-- About Me Section -->
+        <section class="about">
+            <h2>About Me</h2>
+            <p>You can't use up creativity. The more you use, the more you have in your significant mind.</p>
+            <p><strong>30 Years Of Experience</strong></p>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact">
+            <div class="contact-info">
+                <div>
+                    <h2>Any Type Of Query & Discussion.</h2>
+                    <p>Let's talk with me</p>
+                </div>
+                <div>
+                    <h3>info@hexbo.com</h3>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
