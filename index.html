@@ -4,121 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Template</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: #ffffff;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .navbar {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 0;
-        }
-        .navbar a {
-            color: #ffffff;
-            text-decoration: none;
-            margin: 0 15px;
-            font-weight: bold;
-        }
-        .header {
-            text-align: center;
-            padding: 100px 0;
-            background-color: #2a2a2a;
-        }
-        .header h1 {
-            font-size: 4em;
-            margin: 0;
-            color: #ffffff;
-        }
-        .header p {
-            color: #f8b24f;
-            font-size: 1.5em;
-            margin-top: 10px;
-        }
-        .about, .contact {
-            padding: 50px 0;
-        }
-        .about p, .contact p {
-            font-size: 1.2em;
-            line-height: 1.5;
-            margin: 20px 0;
-        }
-        .about h2, .contact h2 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            color: #f8b24f;
-        }
-        .contact-info {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-top: 50px;
-        }
-        .contact-info div {
-            width: 45%;
-        }
-        .contact-info h3 {
-            font-size: 2em;
-            margin-bottom: 10px;
-        }
-        .contact-info p {
-            font-size: 1.2em;
-            color: #f8b24f;
-        }
-    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <!-- Navbar -->
-        <nav class="navbar">
-            <div class="logo">
-                <h1 style="color: #f8b24f;">H.</h1>
-            </div>
-            <div class="menu">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Works</a>
-                <a href="#">Journey</a>
-                <a href="#">Blog</a>
-                <a href="#">Contact</a>
-            </div>
-        </nav>
+<body class="bg-gray-900 text-white">
+    <!-- Navbar -->
+    <!-- <nav class="container mx-auto flex justify-between items-center py-6">
+        <div class="text-orange-500 text-3xl font-bold">Hi.</div>
+        <div class="space-x-8">
+            <a href="#" class="text-white hover:text-blue-500">Home</a>
+            <a href="#" class="text-white hover:text-orange-500">About</a>
+            <a href="#" class="text-white hover:text-orange-500">Services</a>
+            <a href="#" class="text-white hover:text-orange-500">Works</a>
+            <a href="#" class="text-white hover:text-orange-500">Journey</a>
+            <a href="#" class="text-white hover:text-orange-500">Blog</a>
+            <a href="#" class="text-white hover:text-orange-500">Contact</a>
+        </div>
+    </nav> -->
 
-        <!-- Header -->
-        <header class="header">
-            <h1>Rosalina Williams</h1>
-            <p>Based in Netherland, I'm developer and graphic designer.</p>
-        </header>
+    <!-- Header -->
+    <header class="container mx-auto text-center py-24">
+        <h1 class="m text-4xl font-bold">Hi, I am</h1>
+        <h1 class="text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">Aditya Putra</h1>
+        <p class="text-lg text-white-500 mt-4">Based in Indonesia, I'm software_engineer_.</p>
+    </header>
 
-        <!-- About Me Section -->
-        <section class="about">
-            <h2>About Me</h2>
-            <p>You can't use up creativity. The more you use, the more you have in your significant mind.</p>
-            <p><strong>30 Years Of Experience</strong></p>
-        </section>
+    <!-- About Me Section -->
+    <section class="container mx-auto py-16">
+        <h2 class="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">About Me</h2>
+        <p class="text-xl mb-8">an experienced Software Engineer with a strong focus on backend development, particularly in Golang. With a solid foundation in frontend technologies like React and React Native, I bring a comprehensive skill set to any project.</p>
+        <p class="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">6</p>
+        <p class="text-xl">Years Of Experience</p>
+    </section>
 
-        <!-- Contact Section -->
-        <section class="contact">
-            <div class="contact-info">
-                <div>
-                    <h2>Any Type Of Query & Discussion.</h2>
-                    <p>Let's talk with me</p>
-                </div>
-                <div>
-                    <h3>info@hexbo.com</h3>
-                </div>
+    <!-- Contact Section -->
+    <section class="container mx-auto py-16">
+        <div class="flex justify-between items-center">
+            <div class="w-1/2">
+                <h2 class="text-4xl font-bold font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 via-pink-500 to-orange-500">Any Type Of Query & Discussion.</h2>
+                <p class="text-lg mt-4">Let's talk with me</p>
             </div>
-        </section>
-    </div>
+            <div class="w-1/2 text-right">
+                <h3 class="text-2xl text-white-500 font-bold">adityabackend@gmail.com</h3>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
